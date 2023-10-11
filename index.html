@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <section id="contacto">
+        <div class="contacto">
+            <div>
+                <div class="texto">
+                    <h2>¿Quieres que nos contactemos contigo?</h2>
+                    <h4>Envíanos tu consulta >></h4>
+                </div>
+                <div class="formulario">
+                    <form action="enviado.php" method="POST">
+                        <label for="nombre">Nombre<span>*</span></label>
+                        <input type="text" name="nombre" required>
+                        <label for="correo">Email<span>*</span></label>
+                        <input type="text" name="correo" required>
+                        <label for="mensajes">Mensajes<span>*</span></label>
+                        <textarea name="mensajes" id="mensajes" cols="30" rows="10" required></textarea>
+                        <div>
+                            <button type="submit">Enviar consulta</button>
+                            <button type="reset">Limpiar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#contacto div .texto h2{
+    background-color: black;
+    color: aliceblue;
+    justify-content: 700;
+}
+
+
+#contacto .contacto{
+    display: flex;
+    width: 80%;
+    
+} 
+
+
+
+
+
+#contacto div .texto h4{
+    background-color: yellow;
+
+}
+
+#contacto div .formulario form div button{
+    background-color: black;
+    color: aliceblue;
+  ;
+}
+#contacto div .formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+#contacto div .formulario form label{
+    font-weight: 400;
+}
+#contacto div .formulario form label span{
+    color: red;
+}
+#contacto div .formulario form div button{
+    padding: 5px 20px;
+    border: 1px solid black;
+}
